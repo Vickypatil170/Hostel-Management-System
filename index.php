@@ -1,0 +1,148 @@
+<?php
+session_start();
+?>
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title> Ramnagar Hostel </title>
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body  onscroll="changecolor()">
+
+    <script type="text/javascript" src="./js/home.js"></script>
+   
+    <div class="Nav" id="Nav1">
+        <div class="NavbarContainer">
+            <img src="assets\newlogo.png" alt="" class="NavLogo" onclick="rtohome()">
+            <a class="MobileIcon" id="linkcolor3" onclick="openNav()">
+                <i class="fa fa-bars"></i>
+            </a>
+            <div class="sidenav" id="mySidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <li class="NavItem"><a  on class="NavLinks" href="#about">About</a></li>
+                <li class="NavItem"><a class="NavLinks" href="pricing.php">Pricing</a></li>
+                <li class="NavItem"><a class="NavLinks" href="#contact">Contact Us</a></li>
+                <li class="NavItem"><a class="NavLinks" href="signin.php">Sign in</a></li>
+                <li class="NavItem"><a class="NavLinks" href="registration.php">Signup</a></li>
+            </div>
+            <ul class="NavMenu"> 
+                <li class="NavItem"><a id="linkcolor" on class="NavLinks" href="#about">About</a></li>
+                <li class="NavItem"><a id="linkcolor1" class="NavLinks" href="pricing.php">Pricing</a></li>
+                <li class="NavItem"><a id="linkcolor2" class="NavLinks" href="#contact">Contact Us</a></li>
+                <li class="NavItem"><a id="linkcolor4" class="NavLinks" href="signin.php">Sign in</a></li>
+            </ul>
+            <div class="NavBtn">
+                <button type="button" name="button" class="NavBtnLink" onclick="change()">Signup</button>
+            </div>
+        </div>
+    </div>
+    <div class="HeroContainer">
+        <div class="HeroBg">
+            <video muted autoplay="autoplay" Loop class="VideoBg">
+                <source src="./assets/video3.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="HeroContent">
+            <img class="HeroH1" src="./assets/logo.png">
+            <p class="HeroP">रामनगर वसतिगृह ,सातारा</p>
+            <div class="HeroBtnWrapper">
+                <button type="button" name="button" class="NavBtnLink" onclick="change()">Get Started</button>
+            </div>
+        </div>
+    </div>
+    
+
+
+    <div class="InfoContainer" id="about">
+        <div class="InfoWrapper">
+            <div class="InfoRow">
+                <div class="Column1">
+                    <div class="TextWrapper">
+                        <p class="TopLine">World class Facilities</p>
+                        <h1 class="Heading">Best facilities with less prices</h1>
+                        <p class="Subtitle">Cherish your hostel life with our hostels</p>
+                        <div class="BtnWrap">
+                            <button type="button" name="button" class="NavBtnLink">Get Started</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="Column2">
+                    <div class="ImgWrap">
+                        <img class="Img" src="assets/infosectionpic1.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="InfoContainer">
+        <div class="InfoWrapper">
+            <div class="InfoRow" style="grid-template-areas:'col1 col2';">
+                <div class="Column1">
+                    <div class="TextWrapper">
+                        <p class="TopLine">Best Food</p>
+                        <h1 class="Heading">Unlimited variety of dishes</h1>
+                        <p class="Subtitle">Taste dishes across the world</p>
+                        <div class="BtnWrap">
+                            <button type="button" name="button" class="NavBtnLink">Get Started</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="Column2">
+                    <div class="ImgWrap">
+                        <img class="Img" src="assets/infosectionpic2.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="FooterContainer" id="contact">
+        <div class="FooterWrap">
+
+            <div class="FooterLinksContainer">
+                <div class="FooterLinksWrapper">
+                    <div class="FooterLinkItems">
+                        <h1 class="FooterLinkTitle">About Us</h1>
+                        <a href="aboutme.php" class="FooterLink">Developers</a>
+                        <a href="#about" class="FooterLink">Services</a>
+                        <a href="pricing.php" class="FooterLink">Pricing</a>
+                        <a href="admin\adminlogin.php" class="FooterLink">Admin</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="SocialMedia">
+                <div class="SocialMediaWrap">
+                    <a href="#" class="SocialLogo"><img style="width: 180px; height: 50px;" src="./assets/logo.png" alt=""></a>
+                    <p class="WebsiteRights"> Ramnagar Hostel © 2025</p>
+                    <div class="SocialIcons">
+                        <a href="" class="SocialIconLink"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                        <a href="" class="SocialIconLink"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        <a href="" class="SocialIconLink"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        <a href="" class="SocialIconLink"><i class="fa fa-globe"></i></a>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+       
+</body>
+
+</html>
