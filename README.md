@@ -49,7 +49,7 @@ HTML, CSS, JavaScript, React, PHP, MySQL, NodeJS, ExpressJS, MongoDB
 
 
 ## Support
-For support, email vickypatil1709@gmail.com.com.
+For support, email vickypatil1709@gmail.com
 
 
 "# Hostel-Management-System" 
