@@ -35,13 +35,13 @@ To deploy this project follow these steps:
 
 ## Authors
 
-- [@kunal-2002](https://github.com/kunal-2002)
-- [@Adarsh121003](https://github.com/Adarsh121003)
+- [Vickypatil170](https://github.com/Vickypatil170)
+
 
 
 ## 🚀 About Me
-Hi👋, I'm Kunal Kathpal.
-Student at Ch. Ranbir Singh State Institute Of Engineering and Technology, Jhajjar.
+Hi👋, I'm Vaibhav Patil.
+Student at jai hind et's zulal bhilajirao patil college, Dhule.
 
 
 ## 🛠 Skills
@@ -49,7 +49,7 @@ HTML, CSS, JavaScript, React, PHP, MySQL, NodeJS, ExpressJS, MongoDB
 
 
 ## Support
-For support, email kkunal2103@outlook.com.
+For support, email vickypatil1709@gmail.com.com.
 
 
 "# Hostel-Management-System" 
